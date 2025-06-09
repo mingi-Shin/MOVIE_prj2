@@ -22,7 +22,7 @@
 		out.print("isDeleted");
 		return;
 	}
-	
+	 
 	//접속한 IP주소가 해당 관리자의 허용된 IP리스트에 속하지 않을 때
 	String connectedIP = request.getRemoteAddr();
 	Set<String> superAdminIPs = Set.of("127.0.0.1", "0:0:0:0:0:0:0:1", "::1" ); // "::1" -> IPv6 주소를 축약 표기, 이건몰랐네 

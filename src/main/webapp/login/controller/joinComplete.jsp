@@ -29,19 +29,12 @@ MultipartRequest multi = null;
 int fileMaxSize = 10 * 1024 * 1024; // 10MB
 
 //플랫폼에 따른 savePath 설정 (내 맥북에서 하려고)
-String platform = request.getHeader("Sec-Ch-Ua-Platform");
+/* /* String platform = request.getHeader("Sec-Ch-Ua-Platform");
 if (platform != null) {
   platform = platform.replaceAll("\"", ""); // 큰따옴표 제거, 브라우저가 보여줄 때, 큰따음표 빼고 보여줘서 equals문에서 에러발생함  
 }
-System.out.println("platform = " + platform);
-String savePath = "";
-
-if("Windows".equals(platform)){
-	savePath = "C:\\dev\\movie\\userProfiles";
-} else if ("macOS".equals(platform)){
-	savePath = "/Users/smk/Downloads/학원프로젝트/2차프로젝트/profiles";
-	//	/Users/smk/Downloads/학원프로젝트/2차프로젝트/profiles
-}
+System.out.println("platform = " + platform); */ 
+String savePath = "C:/dev/movie/userProfiles";
 
 File saveDir = new File(savePath);
 
@@ -53,7 +46,7 @@ if (ServletFileUpload.isMultipartContent(request)) { //multipart 요청이냐?
 	//MultipartRequest 이거 쓰자... FileItem 이거 너무 어렵다. 
 	
 	try{
-		multi = new MultipartRequest(request, savePath, fileMaxSize, "UTF-8", new DefaultFileRenamePolicy());
+		multi = new MultipartRequest(request, saveDir.getAbsolutePath(), fileMaxSize, "UTF-8", new DefaultFileRenamePolicy());
 	} catch (Exception e){
 		e.printStackTrace();
 		out.println("<script>alert('처리 중 오류발생'); history.back();</script>");

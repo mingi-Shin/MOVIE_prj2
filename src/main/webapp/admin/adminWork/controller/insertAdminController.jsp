@@ -40,7 +40,7 @@ if(ServletFileUpload.isMultipartContent(request)){ //multi라면?
 		e.printStackTrace();
 		out.println("<script>alert('form처리중 오류 발생'); history.back(); </script>");
 		return; //에러발생 -> 처리중단
-	}
+	} 
 
 	
 	String adminId = multi.getParameter("adminId");

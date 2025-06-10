@@ -699,19 +699,7 @@ function checkNonMemberTicket(){
 		            </a>
 		            <script type="text/javascript">
 		            	function goNaver(){
-		            		if(confirm('좋은거 보여드릴까요?')){
-			            		location.href="https://i.imgur.com/detH3kE.png";
-		            		} else {
-		            			alert("아쉽네요. 진짜 좋은건데");
-		            			alert("그냥 가기 섭섭해요. 진짜 좋은건데..");
-		            			alert("정말 싫어요?");
-		            			alert("진짜 진짜 이거 후회할텐데..");
-		            			if(confirm('마지막으로 한번 더 물어볼게요. 좋은거 보기 싫어요?')){
-			            			location.href="https://i.imgur.com/l7uVLkn.jpeg";
-		            			} else {
-			            			location.href="https://i.imgur.com/l7uVLkn.jpeg";
-		            			}
-		            		} 
+		            		alert("미지원");
 		            	}
 		            </script>
 		          </div>
@@ -725,7 +713,7 @@ function checkNonMemberTicket(){
     <div class="sect-loginad" style="background:#d2cbbe; width: 350px;">
       <div>
       	<a href="https://sepay.org/spm/join?regSiteCode=OZ&ctgCode=1&subCode=1" target="_blank">
-        	<img src="http://localhost/movie_prj/common/img/loginAd.png" width="350" height="300" title="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" name="Login_bigbanner" id="Login_bigbanner"></iframe>
+        	<img src="http://yeonflix.sist.co.kr/common/img/loginAd.png" width="350" height="300" title="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" name="Login_bigbanner" id="Login_bigbanner"></iframe>
         </a>
       </div>
     </div>

@@ -17,7 +17,7 @@ function logout(){
     <!-- 로고 영역 -->
     <div class="logo-container">
         <div class="logo-img">
-            <img src="${pageContext.request.contextPath}/common/img/logo.png" alt="메인 로고" />
+            <img src="http://yeonflix.sist.co.kr/common/img/logo.png" alt="메인 로고" />
         </div>
         <div class="logo-text">관리자 페이지</div>
     </div>
@@ -128,11 +128,11 @@ function logout(){
 <div class="header-container">
     <div class="header-buttons">
         <a href="${pageContext.request.contextPath}/admin/dashboard/dashboard.jsp" class="header-button">
-            <img src="${pageContext.request.contextPath}/common/img/home_icon.png" alt="홈 아이콘" class="button-icon">
+            <img src="http://yeonflix.sist.co.kr/common/img/home_icon.png" alt="홈 아이콘" class="button-icon">
             메인으로
         </a>
         <a href="javascript:logout()" class="header-button">
-            <img src="${pageContext.request.contextPath}/common/img/signOut_icon.png" alt="로그아웃 아이콘" class="button-icon">
+            <img src="http://yeonflix.sist.co.kr/common/img/signOut_icon.png" alt="로그아웃 아이콘" class="button-icon">
             로그아웃
         </a>
     </div>

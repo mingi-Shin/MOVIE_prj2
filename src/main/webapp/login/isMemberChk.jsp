@@ -162,7 +162,7 @@ $(function(){
 				</div>
 	
 				<div class="brand-logos">
-					<img src="${pageContext.request.contextPath }/common/img/brandLogos.png" style="margin: 0px auto;">
+					<img src="http://yeonflix.sist.co.kr/common/img/brandLogos.png" style="margin: 0px auto;">
 		</div>
 	</div>
 </main>

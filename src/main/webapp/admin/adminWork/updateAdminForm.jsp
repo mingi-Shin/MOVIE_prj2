@@ -16,7 +16,7 @@
 
 		<div class="mgr-profile-section"
 			style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-			<img src="${pageContext.request.contextPath }/common/img/default_img.png"
+			<img src="http://yeonflix.sist.co.kr/common/img/default_img.png"
 				alt="프로필 사진" class="mgr-profile-img" id="mgrProfileImg2"> <input
 				type="file" id="profileImageBtn" class="profile-image"
 				name="profileImage" accept="image/*" style="display: none">

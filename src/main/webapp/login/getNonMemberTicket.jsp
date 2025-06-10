@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <title>비회원 예매내역 조회</title>
 <jsp:include page="/common/jsp/external_file.jsp" />
-<link rel="stylesheet" href="http://localhost/movie_prj/theater/theater.css/theater_main.css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/theater/theater.css/theater_main.css"/>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/login/css/getNonMemberTicket.css">
 <script type="text/javascript">
 </script>
@@ -51,7 +51,7 @@
 			
 			        <div class="nomem-booking-content">
 			          <div class="nomem-movie-poster"> 
-			          	<img alt="영화포스터" src="${pageContext.request.contextPath }/common/img/${ticket.moviePoster }">
+			          	<img alt="영화포스터" src="http://yeonflix.sist.co.kr/common/img/${ticket.moviePoster }">
 			          </div>
 			
 			          <div class="nomem-movie-info">

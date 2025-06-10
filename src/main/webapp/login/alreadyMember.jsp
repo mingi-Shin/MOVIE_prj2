@@ -100,7 +100,7 @@ $(function(){
 
 <div class="box_member">
 	<div class="certi_txt check">
-		<span class="img"><img src="${pageContext.request.contextPath }/common/img/alreadyMember.jpg" style="width: 150px; height: 150px; border-radius: 5em;" ></span>
+		<span class="img"><img src="http://yeonflix.sist.co.kr/common/img/alreadyMember.jpg" style="width: 150px; height: 150px; border-radius: 5em;" ></span>
 		<p class="b_txt" ><strong class="em" style="color: #EE7C00"><c:out value="${name}"/></strong>님! 이미 YEONFLIX 회원으로 등록되어 있습니다.</p>			
 		<p class="s_txt">회원 아이디<em>(<c:out value="${userId}" />)</em>로 로그인을 진행해 주세요.</p>
 	</div>

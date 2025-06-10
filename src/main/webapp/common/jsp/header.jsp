@@ -6,7 +6,7 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}" />
 
 <div class="headerTop">
-	<h1 class="logo"><a href="${pageContext.request.contextPath}/index.jsp"><img src="${pageContext.request.contextPath}/common/img/logo.png" alt=""></a></h1>
+	<h1 class="logo"><a href="${pageContext.request.contextPath}/index.jsp"><img src="http://yeonflix.sist.co.kr/common/img/logo.png" alt=""></a></h1>
  	<div class="member">
 		<ul class=login_menu>
 			<!-- c:url 이랑 imgs src랑 다르다. 가져오는 주소가 다름에 주의!!! -->  
@@ -15,15 +15,15 @@
   	    <li>
 	  	    <div style="display: flex; align-items: center; justify-content: center;">[<span style="color: blue; font-size: 13px;"> <c:out value="${sessionScope.loginUser.nickName }" /></span>]</div>
   	    </li>
-        <li><a href="${pageContext.request.contextPath}/login/controller/logout.jsp"><img src="${pageContext.request.contextPath}/common/img/loginPassword.png" alt="">로그아웃</a></li>
+        <li><a href="${pageContext.request.contextPath}/login/controller/logout.jsp"><img src="http://yeonflix.sist.co.kr/common/img/loginPassword.png" alt="">로그아웃</a></li>
         </c:when>
         <c:otherwise>
-      	<li><a href="${pageContext.request.contextPath}/login/loginFrm.jsp"><img src="${pageContext.request.contextPath}/common/img/loginPassword.png" alt="">로그인</a></li>
-      	<li><a href="${pageContext.request.contextPath }/login/isMemberChk.jsp"><img src="${pageContext.request.contextPath}/common/img/loginJoin.png" alt="">회원가입</a></li>
+      	<li><a href="${pageContext.request.contextPath}/login/loginFrm.jsp"><img src="http://yeonflix.sist.co.kr/common/img/loginPassword.png" alt="">로그인</a></li>
+      	<li><a href="${pageContext.request.contextPath }/login/isMemberChk.jsp"><img src="http://yeonflix.sist.co.kr/common/img/loginJoin.png" alt="">회원가입</a></li>
         </c:otherwise>
       </c:choose>
-		<li><a href="${pageContext.request.contextPath}/mypage/MainPage.jsp"><img src="${pageContext.request.contextPath}/common/img/loginMember.png" alt="">마이페이지</a></li>
-		<li><a href="${pageContext.request.contextPath}/customer_service/customer_service_center.jsp"><img src="${pageContext.request.contextPath}/common/img/loginCustomer.png" alt="">고객센터</a></li>
+		<li><a href="${pageContext.request.contextPath}/mypage/MainPage.jsp"><img src="http://yeonflix.sist.co.kr/common/img/loginMember.png" alt="">마이페이지</a></li>
+		<li><a href="${pageContext.request.contextPath}/customer_service/customer_service_center.jsp"><img src="http://yeonflix.sist.co.kr/common/img/loginCustomer.png" alt="">고객센터</a></li>
 		</ul>
 	 </div>
 </div>

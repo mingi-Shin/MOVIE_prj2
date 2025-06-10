@@ -5,7 +5,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 <meta charset="UTF-8">
 <title>회원가입 - 인증</title>

@@ -20,7 +20,7 @@ public class MailUtil {
   public static void sendEmail(ServletContext context, String toEmail, String number, String mailType) throws IOException {
     
     String user = "sinseogyoung@naver.com"; //서비스 제공자의 이메일 예: sinseogyoung@naver.com
-    String password = "QCYHRFH636JN"; //네이버 앱에서 받은 2단계 보안앱 비밀번호 (이메일 전송을 위해 필요)
+    String password = "8HW89B5D1U71"; //네이버 앱에서 받은 2단계 보안앱 비밀번호 (이메일 전송을 위해 필요)
 
     Properties prop = new Properties();
     prop.put("mail.smtp.host", "smtp.naver.com");

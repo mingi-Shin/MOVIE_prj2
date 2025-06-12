@@ -22,7 +22,7 @@ public class MailUtil {
     String user = "sinseogyoung@naver.com"; //서비스 제공자의 이메일 예: sinseogyoung@naver.com
     String password = "8HW89B5D1U71"; //네이버 앱에서 받은 2단계 보안앱 비밀번호 (이메일 전송을 위해 필요)
 
-    Properties prop = new Properties();
+    Properties prop = new Properties(); 
     prop.put("mail.smtp.host", "smtp.naver.com");
     prop.put("mail.smtp.port", "587");  // 네이버 공식 포트
     prop.put("mail.smtp.auth", "true");

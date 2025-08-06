@@ -99,9 +99,6 @@ CGV 영화 예매 사이트를 벤치마킹하여 제작한 영화 예매 웹사
 - [유연수](https://github.com/yeonsu2002)<br/>
   ✔ 사용자 : 마이페이지<br/>
   ✔ 관리자 : 회원 관리<br/>
-- [장준녕](https://github.com/jjn841)<br/>
-  ✔ 사용자 : 메인페이지, 극장<br/>
-  ✔ 관리자 : 관리자 대시보드<br/>
 - [이호빈](https://github.com/leehobin7)<br/>
   ✔ 사용자 : 영화 리뷰<br/>
   ✔ 관리자 : 리뷰 관리<br/>
